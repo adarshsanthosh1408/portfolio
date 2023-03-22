@@ -1,0 +1,62 @@
+.body{
+  height:100%;
+}
+.carousel,.item,.active{
+    height:100%;
+  }
+ .carousel-inner{
+     height:100%;
+ }
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    width: 20%;
+    background-color: #111;
+  }
+  /* name */
+  .name {
+
+    color: white;
+    font-size: 1cm;
+
+  }
+  /*details*/
+  .details{
+    color: white;
+    text-align: left;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    width: 80%;
+    height: 100%;
+    
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+  
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
